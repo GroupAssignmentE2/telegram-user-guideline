@@ -164,3 +164,35 @@ code:hover {
     background-color: wheat;
     height: 250px;
 }
+
+.video-container {
+    display: flex;
+}
+
+video {
+    margin: 10px;
+}
+
+.label-video-container{
+    display: flex;
+}
+
+.label-reference-container {
+    display: flex;
+}
+
+.ref-ios {
+    padding-left: 10px;
+}
+
+.ref-android {
+    padding-left: 255px;
+}
+
+.ref-desktop {
+    padding-left: 230px;
+}
+
+a {
+    color: #00aaff;
+}
