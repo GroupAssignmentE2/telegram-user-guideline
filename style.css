@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e6f7ff;
+    color: #333;
+    display: flex;
+}
+
+#navbar {
+    background-color: #00aaff;
+    color: #ffffff;
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+#navbar header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: left;
+}
+
+.nav-link:hover {
+    background-color: #0077b3;
+}
+
+#main-doc {
+    margin-left: 250px;
+    padding: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.main-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-section header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #00aaff;
+}
+
+.main-section a:link {
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+code {
+    display: block;
+    background-color: #f0f8ff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #cce7ff;
+}
+
+code:hover {
+    background-color: #d6f4ff;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        position: static;
+        width: 100%;
+        padding: 15px;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .main-section header {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    code {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    #navbar {
+        padding: 10px;
+    }
+
+    .main-section {
+        padding: 15px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+.container {
+    /* width: 500px; */
+    height: 500px;
+    background-color: gray;
+    display: flex;
+}
+
+.image-content {
+    margin: 10px;
+    background-color: wheat;
+    height: 250px;
+}
