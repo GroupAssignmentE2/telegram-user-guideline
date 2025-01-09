@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Phone Login</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0088cc;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #007bb5;
+        }
+        .back-link {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #0088cc;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+     <!-- Insert Image -->
+     <img src="/images/Telegram.png" alt="Telegram Image">
+
+    <div class="login-container">
+        <h1>Log in to Telegram</h1>
+        <p>Enter your phone number to log in:</p>
+        
+        <!-- Phone Number Input -->
+        <input type="tel" placeholder="Phone Number (+855)" required>
+        
+        <!-- Next Button -->
+        <button type="button">Next</button>
+        
+        <!-- Back Link -->
+        <a href="index.html" class="back-link">Back to QR Code Login</a>
+    </div>
+
+</body>
+</html>
