@@ -196,3 +196,7 @@ video {
 a {
     color: #00aaff;
 }
+
+.ref-mobile, .ref-desktop {
+    padding-left: 320px;
+}
